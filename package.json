@@ -2,10 +2,11 @@
   "name": "my-csr-app2",
   "version": "0.1.0",
   "private": true,
+  
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
+    "start": "node_modules/next/dist/bin/next start",
     "lint": "next lint"
   },
   "dependencies": {
